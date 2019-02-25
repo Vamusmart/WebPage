@@ -1,0 +1,164 @@
+* {
+    box-sizing: border-box;
+  }
+
+  
+  /* Style the body */
+  body {
+    font-family: Arial;
+    margin: 0;
+  }
+  
+  /* ValentinoDesign */
+  .header1 {
+    letter-spacing: 3px;
+    font-size: 250%;
+    font-family: 'Miss Fajardose', cursive;
+    text-align: left;
+    size: 1px;
+    background:black;
+    color: white;
+    padding:20px;
+  }
+
+
+  p{ text-align: justify;
+
+  }
+
+  /* Style webDevelopment picture */
+  .webDev1{border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 100%;
+    height: 290px;
+  }
+  
+  /* Style ProgrammingLanguage picture */
+  .webDev{border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 100%;
+    height: 290px;
+  }
+
+
+  /* Header logo ItalianDesign*/
+  .header2 {
+    text-align: center;
+    background:black;
+    color: white;
+  }
+  
+  /* Style the top navigation bar */
+  .navbar {
+    text-align: center;
+    background-color:black;
+  }
+
+  /* Style the navigation bar links */
+  .navbar a {
+    color: white;
+    text-align: left;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+    float:left;
+
+  }
+  
+  /* Change color on hover */
+  .navbar a:hover {
+    background-color: white;
+    color: black;
+  }
+
+
+  #about{
+    float:right;
+  }
+  
+  /* Column container */
+  .row {  
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+
+
+
+
+  /* Create two unequal columns that sits next to each other */
+  /* Sidebar/left column */
+  .side {
+    flex: 30%;
+    background-color: white;
+    padding: 20px;
+  }
+  
+  /* Main column */
+  .main {
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+  }
+  
+  /* Fake image, just for this example */
+  .red {
+    margin-top:87%;
+    background-color: red;
+    width: 100%;
+    padding: 20px;
+    border-style: solid;
+    border-width: 1px;
+    -webkit-animation-name: bounce;
+    animation-name: bounce;
+    -webkit-transform-origin: center bottom;
+    transform-origin: center bottom;
+  }
+
+   /* Fake image, just for this example */
+   .white {
+    background-color: white;
+    width: 100%;
+    padding: 20px;
+    border-style: solid;
+    border-width: 1px;
+  }
+
+   /* Fake image, just for this example */
+   .green {
+    background-color: green;
+    width: 100%;
+    padding: 20px;
+    border-style: solid;
+    border-width: 1px;
+  }
+  
+  /* Footer */
+  .footer1 {
+    padding: 20px;
+    text-align: left;
+    background: black;
+    color: white;
+
+  }
+
+    /* Footer */
+.footer2 {
+        padding: 20px;
+        text-align: right;
+        background: black; 
+        color: white;
+
+      }
+
+
+
+
+  /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+  @media (max-width: 700px) {
+    .row, .navbar {   
+      flex-direction: column;
+    }
+  }
