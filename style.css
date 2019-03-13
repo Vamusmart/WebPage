@@ -105,12 +105,15 @@
   
   /* Fake image, just for this example */
   .red {
-    margin-top:87%;
-    background-color: red;
+    margin-top:10%;
+    background-image: url(./img/pomodori.jpg);
+
+    /* background-color: red; */
     width: 100%;
     padding: 20px;
     border-style: solid;
-    border-width: 1px;
+    border-width: 2px;
+    border-color:  red;
     -webkit-animation-name: bounce;
     animation-name: bounce;
     -webkit-transform-origin: center bottom;
@@ -119,27 +122,32 @@
 
    /* Fake image, just for this example */
    .white {
-    background-color: white;
+    background-image: url(./img/milk.jpg);
+    background-position: center;
     width: 100%;
     padding: 20px;
     border-style: solid;
-    border-width: 1px;
+    border-width: 2px;
+    border-color:  white;
   }
 
    /* Fake image, just for this example */
    .green {
+    background-image: url(./img/basil.jpg);
+
     background-color: green;
     width: 100%;
     padding: 20px;
     border-style: solid;
-    border-width: 1px;
+    border-width: 2px;
+    border-color:  green;
   }
   
   /* Footer */
   .footer1 {
+
     padding: 20px;
     text-align: left;
-    background: black;
     color: white;
 
   }
@@ -161,4 +169,19 @@
     .row, .navbar {   
       flex-direction: column;
     }
+  }
+
+
+  .parallax, .footer1, .footer2 {
+    /* The image used */
+    background-image: url("https://wallpapercave.com/wp/wp1841290.jpg");
+  
+    /* Set a specific height */
+    min-height: 10px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
