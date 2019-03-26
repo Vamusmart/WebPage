@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+  padding: 3px;
+
 }
 
 /* Style the body */
@@ -27,11 +29,12 @@ body {
   font-family: "Corben", cursive;
   color: black;
   font-size: 20px;
+  padding: 12px;
 }
 .italian {
   text-align: center;
   font-family: "Corben", cursive;
-  color: black;
+  color: brown;
   padding-top: 50px;
 }
 
@@ -42,11 +45,7 @@ body {
   color: white;
 }
 
-/* Style the top navigation bar */
-.navbar {
-  text-align: center;
-  background-color: black;
-}
+
 
 /* Column container */
 .row {
@@ -54,19 +53,11 @@ body {
   flex-wrap: wrap;
 }
 
-/* Create two unequal columns that sits next to each other */
-/* Sidebar/left column */
-.side {
-  flex: 30%;
-  background-color: white;
-  padding: 20px;
-}
 
 /* Main column */
 .main {
-  flex: 70%;
   background-color: white;
-  padding: 20px;
+  padding: 50px;
 }
 
 /* background-color: red; */
@@ -116,6 +107,7 @@ body {
 
 /* Footer */
 .footer2 {
+  font-family: "Corben", cursive;
   padding: 20px;
   text-align: right;
   color: brown;
